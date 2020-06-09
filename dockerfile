@@ -8,4 +8,4 @@ RUN mvn package
 RUN cp /usr/local/tomcat/boxfuse/target/hello-1.0.war /usr/local/tomcat/webapps
 EXPOSE 8080
 
-# IP adress 123.43.2.112:8080/hello-1.0
+# 123.43.2.112:8080/hello-1.0
